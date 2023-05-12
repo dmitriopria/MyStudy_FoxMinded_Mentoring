@@ -4,17 +4,23 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e4a2c96c-23e4-4f1f-b5f4-130dd45110a6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.editorconfig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ua/foxminded/task1_3/task1_3/Anagram.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ua/foxminded/task1_3/task1_3/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ua/foxminded/task1_3/AnagramTest.java" afterDir="false" />
+    <list default="true" id="e4a2c96c-23e4-4f1f-b5f4-130dd45110a6" name="Changes" comment="tasks 1-3 completed:&#10;Anagram, maven and pom, jUnit tests">
+      <change afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ua/foxminded/task4/Calculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ua/foxminded/task4/Formatter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ua/foxminded/task4/LongDivisionResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ua/foxminded/task4/CalculatorTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ua/foxminded/task4/FormatterTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ua/foxminded/task1_3/task1_3/Anagram.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/foxminded/task1_3/Anagram.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ua/foxminded/task1_3/task1_3/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/foxminded/task1_3/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ua/foxminded/task4/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/foxminded/task4/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ua/foxminded/task1_3/AnagramTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ua/foxminded/task1_3/AnagramTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ua/foxminded/task4/Test.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,24 +52,24 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true"
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "C:/java/javafx-sdk-20.0.1/lib/javafx.web.jar",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "shared-indexes"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.AnagramTest">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ua.foxminded.task1_3.task1_3.Main" />
-      <module name="MyStudy_Foxminded_Mentoring" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ua.foxminded.task1_3.task1_3.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="AnagramTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\workspace\MyStudy_Foxminded_Mentoring" />
+      <recent name="C:\workspace\MyStudy_Foxminded_Mentoring\src\test\java\ua\foxminded\task4" />
+      <recent name="C:\workspace\MyStudy_Foxminded_Mentoring\src\main\java\ua\foxminded\task4" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.FormatterTest.testForActualStringFromTheTask">
+    <configuration name="ua.foxminded.task1_3.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ua.foxminded.task1_3.Main" />
       <module name="MyStudy_Foxminded_Mentoring" />
       <extension name="coverage">
         <pattern>
@@ -71,24 +77,78 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="ua.foxminded.task1_3" />
-      <option name="MAIN_CLASS_NAME" value="ua.foxminded.task1_3.AnagramTest" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ua.foxminded.task4.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ua.foxminded.task4.Main" />
+      <module name="MyStudy_Foxminded_Mentoring" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ua.foxminded.task4.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ua.foxminded.task4.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ua.foxminded.task4.Main" />
+      <module name="MyStudy_Foxminded_Mentoring" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ua.foxminded.task4.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CalculatorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MyStudy_Foxminded_Mentoring" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ua.foxminded.task4.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ua.foxminded.task4" />
+      <option name="MAIN_CLASS_NAME" value="ua.foxminded.task4.CalculatorTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AnagramTest.test_makeAnagram_returnNull_whenNull" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CalculatorTest.testRequirePositiveNumberDividend" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="MyStudy_Foxminded_Mentoring" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ua.foxminded.task1_3.*" />
+          <option name="PATTERN" value="ua.foxminded.task4.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="ua.foxminded.task1_3" />
-      <option name="MAIN_CLASS_NAME" value="ua.foxminded.task1_3.AnagramTest" />
-      <option name="METHOD_NAME" value="test_makeAnagram_returnNull_whenNull" />
+      <option name="PACKAGE_NAME" value="ua.foxminded.task4" />
+      <option name="MAIN_CLASS_NAME" value="ua.foxminded.task4.CalculatorTest" />
+      <option name="METHOD_NAME" value="testRequirePositiveNumberDividend" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FormatterTest.testForActualStringFromTheTask" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MyStudy_Foxminded_Mentoring" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ua.foxminded.task4.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ua.foxminded.task4" />
+      <option name="MAIN_CLASS_NAME" value="ua.foxminded.task4.FormatterTest" />
+      <option name="METHOD_NAME" value="testForActualStringFromTheTask" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -96,9 +156,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.AnagramTest" />
-        <item itemvalue="JUnit.AnagramTest.test_makeAnagram_returnNull_whenNull" />
-        <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.FormatterTest.testForActualStringFromTheTask" />
+        <item itemvalue="JUnit.CalculatorTest.testRequirePositiveNumberDividend" />
+        <item itemvalue="Application.ua.foxminded.task4.Main" />
+        <item itemvalue="JUnit.CalculatorTest" />
+        <item itemvalue="Application.ua.foxminded.task1_3.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -111,6 +173,14 @@
       <option name="presentableId" value="Default" />
       <updated>1667123932713</updated>
     </task>
+    <task id="LOCAL-00001" summary="tasks 1-3 completed:&#10;Anagram, maven and pom, jUnit tests">
+      <created>1667132468259</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1667132468259</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -123,5 +193,18 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="tasks 1-3 completed:&#10;Anagram, maven and pom, jUnit tests" />
+    <option name="LAST_COMMIT_MESSAGE" value="tasks 1-3 completed:&#10;Anagram, maven and pom, jUnit tests" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/MyStudy_Foxminded_Mentoring$homework.ic" NAME="homework Coverage Results" MODIFIED="1676925111862" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>ua.foxminded.task4.*</FILTER>
+    </SUITE>
   </component>
 </project>

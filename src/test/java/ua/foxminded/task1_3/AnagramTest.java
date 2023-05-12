@@ -1,13 +1,11 @@
 package ua.foxminded.task1_3;
 
 import org.junit.jupiter.api.Test;
-import ua.foxminded.task1_3.task1_3.Anagram;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertNull;
 
-public class AnagramTest {
-
+class AnagramTest {
     Anagram anagram = new Anagram();
 
     @Test
@@ -50,5 +48,4 @@ public class AnagramTest {
         assertEquals("olleH! yM eman si amiD!",
                 anagram.makeAnagram("Hello! My name is Dima!"));
     }
-
 }
