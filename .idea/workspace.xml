@@ -4,23 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e4a2c96c-23e4-4f1f-b5f4-130dd45110a6" name="Changes" comment="tasks 1-3 completed:&#10;Anagram, maven and pom, jUnit tests">
-      <change afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ua/foxminded/task4/Calculator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ua/foxminded/task4/Formatter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ua/foxminded/task4/LongDivisionResult.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ua/foxminded/task4/CalculatorTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ua/foxminded/task4/FormatterTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="e4a2c96c-23e4-4f1f-b5f4-130dd45110a6" name="Changes" comment="tasks 1-3 refactor. Task 4 completed.">
+      <change afterPath="$PROJECT_DIR$/.idea/git_toolbox_prj.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ua/foxminded/task5/Cache.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ua/foxminded/task5/CacheDecorator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ua/foxminded/task5/CharCounter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ua/foxminded/task5/CharCounterImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ua/foxminded/task5/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ua/foxminded/task5/CacheDecoratorTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ua/foxminded/task5/CharCounterImplTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ua/foxminded/task1_3/task1_3/Anagram.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/foxminded/task1_3/Anagram.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ua/foxminded/task1_3/task1_3/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/foxminded/task1_3/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ua/foxminded/task4/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/foxminded/task4/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ua/foxminded/task1_3/AnagramTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ua/foxminded/task1_3/AnagramTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ua/foxminded/task4/Test.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,7 +48,8 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "C:/java/javafx-sdk-20.0.1/lib/javafx.web.jar",
+    "SONARLINT_PRECOMMIT_ANALYSIS": "true",
+    "last_opened_file_path": "C:/workspace/MyStudy_Foxminded_Mentoring/src/test/java/ua/foxminded/task5",
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
@@ -62,18 +58,20 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\workspace\MyStudy_Foxminded_Mentoring\src\test\java\ua\foxminded\task5" />
+      <recent name="C:\workspace\MyStudy_Foxminded_Mentoring\src\main\java\ua\foxminded\task5" />
       <recent name="C:\workspace\MyStudy_Foxminded_Mentoring" />
       <recent name="C:\workspace\MyStudy_Foxminded_Mentoring\src\test\java\ua\foxminded\task4" />
       <recent name="C:\workspace\MyStudy_Foxminded_Mentoring\src\main\java\ua\foxminded\task4" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.FormatterTest.testForActualStringFromTheTask">
-    <configuration name="ua.foxminded.task1_3.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ua.foxminded.task1_3.Main" />
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ua.foxminded.task5.Main" />
       <module name="MyStudy_Foxminded_Mentoring" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ua.foxminded.task1_3.*" />
+          <option name="PATTERN" value="ua.foxminded.task5.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -94,45 +92,47 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ua.foxminded.task4.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ua.foxminded.task4.Main" />
+    <configuration name="CacheDecoratorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="MyStudy_Foxminded_Mentoring" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ua.foxminded.task4.*" />
+          <option name="PATTERN" value="ua.foxminded.task5.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CalculatorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="MyStudy_Foxminded_Mentoring" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ua.foxminded.task4.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="ua.foxminded.task4" />
-      <option name="MAIN_CLASS_NAME" value="ua.foxminded.task4.CalculatorTest" />
+      <option name="PACKAGE_NAME" value="ua.foxminded.task5" />
+      <option name="MAIN_CLASS_NAME" value="ua.foxminded.task5.CacheDecoratorTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CalculatorTest.testRequirePositiveNumberDividend" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CharCounterImplTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="MyStudy_Foxminded_Mentoring" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ua.foxminded.task4.*" />
+          <option name="PATTERN" value="ua.foxminded.task5.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="ua.foxminded.task4" />
-      <option name="MAIN_CLASS_NAME" value="ua.foxminded.task4.CalculatorTest" />
-      <option name="METHOD_NAME" value="testRequirePositiveNumberDividend" />
+      <option name="PACKAGE_NAME" value="ua.foxminded.task5" />
+      <option name="MAIN_CLASS_NAME" value="ua.foxminded.task5.CharCounterImplTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CharCounterImplTest.testManySymbols" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MyStudy_Foxminded_Mentoring" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ua.foxminded.task5.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ua.foxminded.task5" />
+      <option name="MAIN_CLASS_NAME" value="ua.foxminded.task5.CharCounterImplTest" />
+      <option name="METHOD_NAME" value="testManySymbols" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -156,11 +156,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.CharCounterImplTest" />
+        <item itemvalue="JUnit.CacheDecoratorTest" />
+        <item itemvalue="JUnit.CharCounterImplTest.testManySymbols" />
         <item itemvalue="JUnit.FormatterTest.testForActualStringFromTheTask" />
-        <item itemvalue="JUnit.CalculatorTest.testRequirePositiveNumberDividend" />
-        <item itemvalue="Application.ua.foxminded.task4.Main" />
-        <item itemvalue="JUnit.CalculatorTest" />
-        <item itemvalue="Application.ua.foxminded.task1_3.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -180,7 +180,14 @@
       <option name="project" value="LOCAL" />
       <updated>1667132468259</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="tasks 1-3 refactor. Task 4 completed.">
+      <created>1683904565277</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1683904565277</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -196,7 +203,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="tasks 1-3 completed:&#10;Anagram, maven and pom, jUnit tests" />
-    <option name="LAST_COMMIT_MESSAGE" value="tasks 1-3 completed:&#10;Anagram, maven and pom, jUnit tests" />
+    <MESSAGE value="tasks 1-3 refactor. Task 4 completed." />
+    <option name="LAST_COMMIT_MESSAGE" value="tasks 1-3 refactor. Task 4 completed." />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
