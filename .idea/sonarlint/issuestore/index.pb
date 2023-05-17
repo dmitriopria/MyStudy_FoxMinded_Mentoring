@@ -22,3 +22,17 @@ h
 ,src/main/java/ua/foxminded/task1_3/Main.java,e\7\e718cc524aca6de9dd33d0692538c1ea13f2f213
 Z
 *src/main/java/ua/foxminded/task4/Main.java,e\2\e2b3b4f7eb78306945bbce605e2488e864f6cf28
+[
++src/main/java/ua/foxminded/task5/Cache.java,0\6\060b22a134ce85ef685afd9d57f6e2b8412c23d6
+d
+4src/main/java/ua/foxminded/task5/CacheDecorator.java,6\f\6f8426e339cb5cb940163c37b1ea05fcfd0c49ac
+h
+8src/test/java/ua/foxminded/task5/CacheDecoratorTest.java,f\7\f77d405eaa6b07b1f88d4c1a4410214046dcf497
+a
+1src/main/java/ua/foxminded/task5/CharCounter.java,f\a\fafb051601445be095bb72d7ea859377ad798769
+e
+5src/main/java/ua/foxminded/task5/CharCounterImpl.java,0\2\023192d12a7d23f7cf1f46bad5068e457064c255
+i
+9src/test/java/ua/foxminded/task5/CharCounterImplTest.java,f\a\fae53281c34545ddf7e3a29e4f4f9980d374d7ad
+7
+pom.xml,4\4\442292b8a7efeabbe4cc176709b833b1792140ec
