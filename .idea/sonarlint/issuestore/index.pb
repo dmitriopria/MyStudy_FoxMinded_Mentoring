@@ -36,3 +36,5 @@ i
 9src/test/java/ua/foxminded/task5/CharCounterImplTest.java,f\a\fae53281c34545ddf7e3a29e4f4f9980d374d7ad
 7
 pom.xml,4\4\442292b8a7efeabbe4cc176709b833b1792140ec
+Z
+*src/main/java/ua/foxminded/task5/Main.java,3\4\3453aba4aaaca45a39e85a388b726d772b7a6ca4

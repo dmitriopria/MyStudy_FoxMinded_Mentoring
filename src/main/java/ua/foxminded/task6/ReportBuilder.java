@@ -3,19 +3,17 @@ package ua.foxminded.task6;
 import java.time.LocalTime;
 import java.util.List;
 import java.util.function.Consumer;
-import java.util.stream.Stream;
 
 public class ReportBuilder {
     public String buildReport(RaceData data) {
         List<Racer> racerList = data.getRacerList();
+        List<RaceData> raceDataList = data.getRaceDataList();
         int maxTeamNameLength = racerList.stream().mapToInt(racer -> racer.getTeamName().length()).max().getAsInt();
         int maxRacerNameLength = racerList.stream().mapToInt(racer -> racer.getName().length()).max().getAsInt();
-        Stream<RaceData> raceDataStream = data.getRaceDataStream();
 
         StringBuilder stageBoardBuilder = new StringBuilder();
-        raceDataStream.sorted().forEachOrdered(new Consumer<RaceData>() {
+        raceDataList.stream().sorted().forEachOrdered(new Consumer<RaceData>() {
             int index = 1;
-
             @Override
             public void accept(RaceData lap) {
                 stageBoardBuilder.append(generateBoard(lap, maxRacerNameLength, maxTeamNameLength, index));

@@ -4,26 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e4a2c96c-23e4-4f1f-b5f4-130dd45110a6" name="Changes" comment="tasks 5 completed.">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ua/foxminded/task6/Constants.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ua/foxminded/task6/EntityService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ua/foxminded/task6/FileReader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ua/foxminded/task6/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ua/foxminded/task6/Parser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ua/foxminded/task6/RaceData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ua/foxminded/task6/Racer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ua/foxminded/task6/ReportBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/abbreviations.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/emptyTestFile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/end.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/start.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ua/foxminded/task6/EntityServiceTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ua/foxminded/task6/FileReaderTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ua/foxminded/task6/ParserTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ua/foxminded/task6/ReportBuilderTest.java" afterDir="false" />
+    <list default="true" id="e4a2c96c-23e4-4f1f-b5f4-130dd45110a6" name="Changes" comment="tasks 6 initial.">
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ua/foxminded/task6/EntityService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/foxminded/task6/EntityService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ua/foxminded/task6/FileReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/foxminded/task6/FileReader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ua/foxminded/task6/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/foxminded/task6/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ua/foxminded/task6/RaceData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/foxminded/task6/RaceData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ua/foxminded/task6/Racer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/foxminded/task6/Racer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ua/foxminded/task6/ReportBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/foxminded/task6/ReportBuilder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ua/foxminded/task6/EntityServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ua/foxminded/task6/EntityServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ua/foxminded/task6/FileReaderTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ua/foxminded/task6/FileReaderTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ua/foxminded/task6/ReportBuilderTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ua/foxminded/task6/ReportBuilderTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,19 +47,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "SONARLINT_PRECOMMIT_ANALYSIS": "true",
-    "last_opened_file_path": "C:/workspace/MyStudy_Foxminded_Mentoring/src/test/java/ua/foxminded/task6",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "shared-indexes"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;SONARLINT_PRECOMMIT_ANALYSIS&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/workspace/MyStudy_Foxminded_Mentoring/src/test/java/ua/foxminded/task6&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;shared-indexes&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\workspace\MyStudy_Foxminded_Mentoring\src\test\java\ua\foxminded\task6" />
@@ -76,49 +69,8 @@
       <recent name="C:\workspace\MyStudy_Foxminded_Mentoring\src\main\java\ua\foxminded\task5" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ParserTest">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ua.foxminded.task5.Main" />
-      <module name="MyStudy_Foxminded_Mentoring" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ua.foxminded.task5.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ua.foxminded.task6.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ua.foxminded.task6.Main" />
-      <module name="MyStudy_Foxminded_Mentoring" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ua.foxminded.task6.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CharCounterImplTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="MyStudy_Foxminded_Mentoring" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ua.foxminded.task5.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="ua.foxminded.task5" />
-      <option name="MAIN_CLASS_NAME" value="ua.foxminded.task5.CharCounterImplTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FileReaderTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.ReportBuilderTest.testBuildReport">
+    <configuration name="EntityServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="MyStudy_Foxminded_Mentoring" />
       <extension name="coverage">
         <pattern>
@@ -127,13 +79,13 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="ua.foxminded.task6" />
-      <option name="MAIN_CLASS_NAME" value="ua.foxminded.task6.FileReaderTest" />
+      <option name="MAIN_CLASS_NAME" value="ua.foxminded.task6.EntityServiceTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ParserTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="EntityServiceTest.testParseLapInfo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="MyStudy_Foxminded_Mentoring" />
       <extension name="coverage">
         <pattern>
@@ -142,19 +94,68 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="ua.foxminded.task6" />
-      <option name="MAIN_CLASS_NAME" value="ua.foxminded.task6.ParserTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="MAIN_CLASS_NAME" value="ua.foxminded.task6.EntityServiceTest" />
+      <option name="METHOD_NAME" value="testParseLapInfo" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EntityServiceTest.testParseLapInfoWithNoSuchElementException" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MyStudy_Foxminded_Mentoring" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ua.foxminded.task6.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ua.foxminded.task6" />
+      <option name="MAIN_CLASS_NAME" value="ua.foxminded.task6.EntityServiceTest" />
+      <option name="METHOD_NAME" value="testParseLapInfoWithNoSuchElementException" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EntityServiceTest.testParseRacers" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MyStudy_Foxminded_Mentoring" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ua.foxminded.task6.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ua.foxminded.task6" />
+      <option name="MAIN_CLASS_NAME" value="ua.foxminded.task6.EntityServiceTest" />
+      <option name="METHOD_NAME" value="testParseRacers" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ReportBuilderTest.testBuildReport" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MyStudy_Foxminded_Mentoring" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ua.foxminded.task6.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ua.foxminded.task6" />
+      <option name="MAIN_CLASS_NAME" value="ua.foxminded.task6.ReportBuilderTest" />
+      <option name="METHOD_NAME" value="testBuildReport" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.ParserTest" />
-        <item itemvalue="JUnit.FileReaderTest" />
-        <item itemvalue="Application.ua.foxminded.task6.Main" />
-        <item itemvalue="Application.Main" />
-        <item itemvalue="JUnit.CharCounterImplTest" />
+        <item itemvalue="JUnit.ReportBuilderTest.testBuildReport" />
+        <item itemvalue="JUnit.EntityServiceTest" />
+        <item itemvalue="JUnit.EntityServiceTest.testParseRacers" />
+        <item itemvalue="JUnit.EntityServiceTest.testParseLapInfoWithNoSuchElementException" />
+        <item itemvalue="JUnit.EntityServiceTest.testParseLapInfo" />
       </list>
     </recent_temporary>
   </component>
@@ -188,7 +189,14 @@
       <option name="project" value="LOCAL" />
       <updated>1683988093180</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="tasks 6 initial.">
+      <created>1684337033695</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1684337033695</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -206,7 +214,19 @@
     <MESSAGE value="tasks 1-3 completed:&#10;Anagram, maven and pom, jUnit tests" />
     <MESSAGE value="tasks 1-3 refactor. Task 4 completed." />
     <MESSAGE value="tasks 5 completed." />
-    <option name="LAST_COMMIT_MESSAGE" value="tasks 5 completed." />
+    <MESSAGE value="tasks 6 initial." />
+    <option name="LAST_COMMIT_MESSAGE" value="tasks 6 initial." />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/ua/foxminded/task6/Parser.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

@@ -7,10 +7,8 @@ import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.junit.platform.commons.util.StringUtils;
 
-import java.io.IOException;
 import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
-import java.net.URISyntaxException;
 import java.util.List;
 import java.util.Random;
 
@@ -18,65 +16,65 @@ import static org.junit.jupiter.api.Assertions.assertThrows;
 
 class FileReaderTest {
     private FileReader reader;
-    private Method method;
+    private Method readLines;
 
     @BeforeEach
-    void initialization() throws NoSuchMethodException, SecurityException, IOException, URISyntaxException {
+    void initialization() throws NoSuchMethodException, SecurityException {
         String startLogFileName = "start.log";
         String endLogFileName = "end.log";
         String abbrFileName = "abbreviations.txt";
-        method = FileReader.class.getDeclaredMethod("readLines", String.class);
-        method.setAccessible(true);
+        readLines = FileReader.class.getDeclaredMethod("readLines", String.class);
+        readLines.setAccessible(true);
         reader = new FileReader(startLogFileName, endLogFileName, abbrFileName);
     }
 
     @Test
-    void shouldReturnListFromFile() throws IOException, IllegalAccessException, InvocationTargetException {
-        List<String> expected = (List<String>) method.invoke(reader, "start.log");
+    void shouldReturnListFromFile() throws IllegalAccessException, InvocationTargetException {
+        List<String> expected = (List<String>) readLines.invoke(reader, "start.log");
         MatcherAssert.assertThat(expected, IsInstanceOf.instanceOf(List.class));
     }
 
     @Test
-    void shouldReturnLengthOfReadedLines() throws IOException, IllegalAccessException, InvocationTargetException {
+    void shouldReturnLengthOfReadLines() throws IllegalAccessException, InvocationTargetException {
         int expected = 19;
-        List<String> actual = (List<String>) method.invoke(reader, "start.log");
+        List<String> actual = (List<String>) readLines.invoke(reader, "start.log");
         Assertions.assertEquals(expected, actual.size());
     }
 
     @Test
-    void shouldReturnNonEmptyLines() throws IOException, IllegalAccessException, InvocationTargetException {
+    void shouldReturnNonEmptyLines() throws IllegalAccessException, InvocationTargetException {
         Random random = new Random();
-        List<String> list = (List<String>) method.invoke(reader, "start.log");
+        List<String> list = (List<String>) readLines.invoke(reader, "start.log");
         String actual = list.get(random.nextInt(18));
         Assertions.assertTrue(StringUtils.isNotBlank(actual));
     }
 
     @Test
-    void shouldReturnNonEmptyLine() throws IOException, IllegalAccessException, InvocationTargetException {
-        List<String> list = (List<String>) method.invoke(reader, "start.log");
+    void shouldReturnNonEmptyLine() throws InvocationTargetException, IllegalAccessException {
+        List<String> list = (List<String>) readLines.invoke(reader, "start.log");
         String actual = list.get(0);
         String expected = "SVF2018-05-24_12:02:58.917";
         Assertions.assertEquals(actual.length(), expected.length());
     }
 
     @Test
-    void shouldReturnFNFEWhenFileIsNotExsist() {
+    void shouldReturnFNFEWhenFileIsNotExist() {
         assertThrows(InvocationTargetException.class, () -> {
-            method.invoke(reader, "hello");
+            readLines.invoke(reader, "hello");
         });
     }
 
     @Test
     void shouldReturnIllArgExcWhenFileNameIsEmpty() {
         assertThrows(InvocationTargetException.class, () -> {
-            method.invoke(reader, "");
+            readLines.invoke(reader, "");
         });
     }
 
     @Test
-    void shouldReturnEmptyList() throws IOException, IllegalAccessException, IllegalArgumentException {
+    void shouldReturnEmptyList() {
         assertThrows(InvocationTargetException.class, () -> {
-            method.invoke(reader, "emptyTestFile");
+            readLines.invoke(reader, "emptyTestFile");
         });
     }
 }

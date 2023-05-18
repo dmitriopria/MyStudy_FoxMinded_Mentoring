@@ -1,5 +1,7 @@
 package ua.foxminded.task6;
 
+import java.util.Objects;
+
 public class Racer {
     private String name;
     private String teamName;
@@ -21,5 +23,18 @@ public class Racer {
 
     public String getAbbreviation() {
         return abbreviation;
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        Racer racer = (Racer) o;
+        return Objects.equals(name, racer.name) && Objects.equals(teamName, racer.teamName) && Objects.equals(abbreviation, racer.abbreviation);
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(name, teamName, abbreviation);
     }
 }

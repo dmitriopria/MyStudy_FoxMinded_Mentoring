@@ -1,6 +1,5 @@
 package ua.foxminded.task6;
 
-import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.net.URI;
 import java.net.URISyntaxException;
@@ -15,14 +14,13 @@ public class FileReader {
     private List<String> endList;
     private List<String> abbreviationsList;
 
-    public FileReader(String startLogFileName, String endLogFileName, String abbrFileName)
-            throws IOException, URISyntaxException {
+    public FileReader(String startLogFileName, String endLogFileName, String abbrFileName) {
         this.startList = readLines(startLogFileName);
         this.endList = readLines(endLogFileName);
         this.abbreviationsList = readLines(abbrFileName);
     }
 
-    private List<String> readLines(String fileName) throws IOException, URISyntaxException {
+    private List<String> readLines(String fileName) {
         if (fileName == null || fileName.isEmpty()) {
             throw new IllegalArgumentException(Constants.EMPTY_FILE_NAME);
         }
@@ -35,8 +33,8 @@ public class FileReader {
                 throw new IllegalArgumentException(Constants.EMPTY_FILE);
             }
             return lines;
-        } catch (NullPointerException e) {
-            throw new FileNotFoundException(Constants.NO_FILE);
+        } catch (NullPointerException | URISyntaxException | IOException e) {
+            throw new IllegalArgumentException(Constants.NO_FILE);
         }
     }
 
